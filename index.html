@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>An amazing website</title>
+  <style>
+    .highlight {
+      color: white;
+      background-color: grey;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 id="main-title">Welcome to My Page</h1>
+  </header>
+
+  <main>
+    <section>
+      <p id="dynamic-text">This text will change dynamically.</p>
+      <button onclick="changeText()">Change Text</button>
+    </section>
+
+    <section>
+      <p id="style-text">This text will be styled via JavaScript.</p>
+      <button onclick="styleText()">Style Text</button>
+    </section>
+
+    <section>
+      <div id="container">
+        <!-- Element will be added/removed here -->
+      </div>
+      <button onclick="toggleElement()">Add/Remove Element</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Your Name</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
